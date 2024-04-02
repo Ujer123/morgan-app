@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.07a878cc.css",
+    "main.js": "/static/js/main.635e70bc.js",
+    "static/js/453.6a1663d6.chunk.js": "/static/js/453.6a1663d6.chunk.js",
+    "static/media/bg.jpg": "/static/media/bg.da2b8a14c9636139295d.jpg",
+    "static/media/portrait-3.jpg": "/static/media/portrait-3.5ed85e511820d21fc8db.jpg",
+    "static/media/bg-image.jpg": "/static/media/bg-image.2bdf51ae41e2a00ad6f8.jpg",
+    "static/media/Inter-italic.var.woff2?v=3.19": "/static/media/Inter-italic.var.30807be7abc48ba8c73c.woff2",
+    "static/media/portrait-4.jpg": "/static/media/portrait-4.19dfd4c086782852db14.jpg",
+    "static/media/services-1.jpg": "/static/media/services-1.d932274ae61c993e6aae.jpg",
+    "static/media/Inter-roman.var.woff2?v=3.19": "/static/media/Inter-roman.var.ba4caefcdf5b36b438db.woff2",
+    "static/media/portrait-2.jpg": "/static/media/portrait-2.0f11cfa4d69815ee811b.jpg",
+    "static/media/still-life-1.jpg": "/static/media/still-life-1.882bf153faaa545e1080.jpg",
+    "static/media/portrait-5.jpg": "/static/media/portrait-5.4325a8f07a8a0fb8df10.jpg",
+    "static/media/home.jpg": "/static/media/home.3efb0b99fc9039916688.jpg",
+    "static/media/project-5.jpg": "/static/media/project-5.d8be988c1e9527838ac6.jpg",
+    "static/media/project-1.jpg": "/static/media/project-1.98985e0f31d64eb0d15d.jpg",
+    "static/media/project-3.jpg": "/static/media/project-3.a6420e36ae0cf65492c0.jpg",
+    "static/media/project-4.jpg": "/static/media/project-4.003cb63eda54ce030e74.jpg",
+    "static/media/project-6.jpg": "/static/media/project-6.62afc64581e8356af958.jpg",
+    "static/media/project-2.jpg": "/static/media/project-2.0f1e63827dc497b56f3c.jpg",
+    "static/media/brand-inverse.png": "/static/media/brand-inverse.e037a032b9def423c554.png",
+    "index.html": "/index.html",
+    "main.07a878cc.css.map": "/static/css/main.07a878cc.css.map",
+    "main.635e70bc.js.map": "/static/js/main.635e70bc.js.map",
+    "453.6a1663d6.chunk.js.map": "/static/js/453.6a1663d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07a878cc.css",
+    "static/js/main.635e70bc.js"
+  ]
+}

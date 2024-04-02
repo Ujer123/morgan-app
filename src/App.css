@@ -1,0 +1,109 @@
+
+.no-underline{
+    margin: 20px 30px;
+}
+
+.head-nav{
+    border-bottom: 3px solid orange;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.home-check{
+    background-image: url(/src/assets/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    
+}
+
+.service-text{
+    margin: 0 200px;
+}
+
+.about-text{
+    padding-top: 200px;
+}
+
+
+
+.about{
+    background-image: url(./assets/bg-image.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.p-card .p-card-title {
+    color: orange;
+}
+
+
+/* .p-card .p-card-header{
+    height: 200px;
+} */
+
+/* .p-card{
+    height: 50vh;
+    max-width: 50vh;
+} */
+
+
+.company{
+    max-width: 100%;
+    padding-top: 290px;
+    padding-left: 290px;
+}
+
+/* .card{
+    margin-top: 5%;
+} */
+
+title{
+    color: orange !important;
+}
+
+@media only screen and (max-width: 768px){
+    /* .p-card{
+        height: 100vh;
+        max-width: 100vh;
+    } */
+    .company{
+        max-width: 100%;
+        padding-top: 290px;
+        padding-left: 100px;
+    }
+    .service-text{
+        margin: 0 0;
+    }
+}
+
+
+@media  only screen and (max-width: 600px) {
+    .company{
+        width: 100%;
+        padding-top: 100%;
+        padding-left: 0;
+    }
+
+    .about{
+        height: 300px;
+        /* width: 100%; */
+    }
+
+    .home-check{
+         background-position: 50%;
+    }
+    .brand .ps-5{
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+         
+    }
+
+    .about-text{
+        padding-top: 120px;
+    }
+    
+    
+}
