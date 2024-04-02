@@ -36,7 +36,7 @@ export default function Service(){
     <div class="lg:col-6">
         <div class="grid">
             <div class="col-12">
-                <img src={potrait3} className='max-w-full border-round-3xl px-4 lg:px-0'/>
+                <img alt='potrait3' src={potrait3} className='max-w-full border-round-3xl px-4 lg:px-0'/>
             </div>
             
             <div class="col-12">
@@ -53,7 +53,7 @@ export default function Service(){
     <div class="lg:col-6">
         <div class="grid">
             <div class="col-12">
-                <img src={potrait4} className='max-w-full border-round-3xl px-4 lg:px-0'/>
+                <img alt='potrait4' src={potrait4} className='max-w-full border-round-3xl px-4 lg:px-0'/>
             </div>
             
             <div class="col-12">

@@ -58,16 +58,16 @@ export default function Home() {
 
                     <div class="grid lg:mx-8">
     <div class="col-12 md:col-6 px-4 lg:col-3">
-        <div class="text-center py-8 shadow-6 border-orange-500 border-3 font-bold"><img src={user} /><h2>Portrait</h2></div>
+        <div class="text-center py-8 shadow-6 border-orange-500 border-3 font-bold"><img alt='user' src={user} /><h2>Portrait</h2></div>
     </div>
     <div class="col-12 md:col-6 px-4 lg:col-3">
-        <div class="text-center py-8 shadow-6 border-orange-500 border-3 font-bold"><img src={leaf} /><h2>Landscape</h2></div>
+        <div class="text-center py-8 shadow-6 border-orange-500 border-3 font-bold"><img alt='leaf' src={leaf} /><h2>Landscape</h2></div>
     </div>
     <div class="col-12 md:col-6 px-4 lg:col-3">
-        <div class="text-center py-8 shadow-6 border-orange-500 border-3 font-bold"><img src={apple} /><h2>Still Life</h2></div>
+        <div class="text-center py-8 shadow-6 border-orange-500 border-3 font-bold"><img alt='apple' src={apple} /><h2>Still Life</h2></div>
     </div>
     <div class="col-12 md:col-6 px-4 lg:col-3">
-        <div class="text-center py-8 shadow-6 border-orange-500 border-3 font-bold "><img src={house} /><h2>Urban</h2></div>
+        <div class="text-center py-8 shadow-6 border-orange-500 border-3 font-bold "><img alt='home' src={house} /><h2>Urban</h2></div>
     </div>
                     </div>
 
