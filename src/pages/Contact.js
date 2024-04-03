@@ -77,7 +77,7 @@ export default function Contact(){
             <p><i className="pi pi-phone bg-primary p-1 mr-2"></i>2130 Fulton Street, San Diego, USA</p>
             <p><i className="pi pi-phone bg-primary p-1 mr-2"></i>1-800-1234-567</p>
             <p><i className="pi pi-envelope bg-black-alpha-50 p-1 mr-2"></i> info@demolink.org</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15092.899608597789!2d72.8310554!3d18.9656724!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cfdf5cadca43%3A0x2f248f63460fcd4f!2sHeuristic%20Academy!5e0!3m2!1sen!2sin!4v1712155173082!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style={{height:'100%', width:'100%'}}/>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15092.899608597789!2d72.8310554!3d18.9656724!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cfdf5cadca43%3A0x2f248f63460fcd4f!2sHeuristic%20Academy!5e0!3m2!1sen!2sin!4v1712155173082!5m2!1sen!2sin" allowfullscreen="" loading="lazy" title="map" referrerpolicy="no-referrer-when-downgrade" style={{height:'100%', width:'100%'}}/>
         </div>
         </div>
         </>
