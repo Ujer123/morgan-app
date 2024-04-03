@@ -15,8 +15,8 @@ export default function Service(){
             
         </div>
 
-        <div className='lg:p-8 pt-6'>
-        <div className='grid'>
+        {/* <div className='lg:p-8 pt-6'> */}
+        <div className='lg:grid lg:flex lg:p-8 pt-6'>
             <div className='lg:col-6'>
             <img alt="home" src={potrait1} className='border-round-3xl max-w-full px-4 lg:px-0' />
             </div>
@@ -27,16 +27,16 @@ export default function Service(){
             </div>
         </div>
 
-        </div>
+        {/* </div> */}
 
-        <div class="grid nested-grid lg:px-8 pt-6">
+        <div class="lg:grid lg:flex nested-grid lg:px-8 pt-6">
     <div class="lg:col-6">
     <img alt="home" src={potrait2} className='border-round-3xl max-w-full px-4 lg:px-0'/>
     </div>
     <div class="lg:col-6">
         <div class="grid">
             <div class="col-12">
-                <img alt='potrait3' src={potrait3} className='max-w-full border-round-3xl px-4 lg:px-0'/>
+                <img src={potrait3} className='max-w-full border-round-3xl px-4 lg:px-0'/>
             </div>
             
             <div class="col-12">
@@ -49,11 +49,11 @@ export default function Service(){
     </div>
 </div>
 
-        <div class="grid nested-grid lg:px-8 pt-6">
+        <div class="lg:grid lg:flex nested-grid lg:px-8 pt-6">
     <div class="lg:col-6">
         <div class="grid">
             <div class="col-12">
-                <img alt='potrait4' src={potrait4} className='max-w-full border-round-3xl px-4 lg:px-0'/>
+                <img src={potrait4} className='max-w-full border-round-3xl px-4 lg:px-0'/>
             </div>
             
             <div class="col-12">
