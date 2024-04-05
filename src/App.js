@@ -8,6 +8,7 @@ import Service from './pages/Service';
 import Blogs from './pages/Blogs';
 import Contact from './pages/Contact';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Footer from './components/Footer';
 
 function App() {
     
@@ -34,6 +35,7 @@ function App() {
                     <Contact />
                 </Route>
             </Switch>
+            <Footer/>
         </Router> 
     </>
   );

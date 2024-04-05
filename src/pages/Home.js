@@ -41,7 +41,7 @@ export default function Home() {
                         <Button label="Learn More" severity="warning" className='border-round-3xl mx-5' outlined/>
                     </div>
                     <div className='lg:col-6'>
-                    <img alt="home" src={home} className='border-round-lg px-5 max-w-full' />
+                    <img alt="home" src={home} className='border-round-3xl px-5 pt-3 max-w-full' />
                     </div>
                 </div>
             </div>
@@ -69,6 +69,9 @@ export default function Home() {
     <div class="col-12 md:col-6 px-4 lg:col-3">
         <div class="text-center py-8 shadow-6 border-orange-500 border-3 font-bold "><img alt='home' src={house} /><h2>Urban</h2></div>
     </div>
+                    </div>
+                    <div className='flex justify-content-center'>
+                        <Button className='bg-white text-orange-500 border-orange-500 border-round-3xl'>View All Services</Button>
                     </div>
 
 

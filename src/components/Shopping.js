@@ -35,7 +35,7 @@ export default function Shopping() {
 
     const footer = (index) => (
         <div className='flex justify-content-between'>
-            <Button label="View Detail" icon="pi pi-check" className='text-orange-400 bg-white border-orange-400 border-round-3xl' onClick={() => handleDialog(index)} />
+            <Button label="View Detail" className='text-orange-400 bg-white border-orange-400 border-round-3xl' onClick={() => handleDialog(index)} />
             <h3>$200</h3>
         </div>
     );
@@ -57,7 +57,7 @@ export default function Shopping() {
                     <h2 className='text-center text-5xl'>My Paintings</h2>
                     <div className='grid'>
                         {[0, 1, 2, 3, 4, 5].map((index) => (
-                            <div className='lg:col-4' key={index}>
+                            <div className='lg:col-4 pt-4' key={index}>
                                 <Card title={title[index]} footer={() => footer(index)} header={<img alt="Card" src={header[index]} style={{ height: '290px' }} />} className="md:w-25rem">
                                     <p className="m-0">{para[index]}</p>
                                 </Card>
