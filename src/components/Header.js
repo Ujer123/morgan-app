@@ -11,29 +11,29 @@ export default function Header() {
     const items = [
         {
             template: () => (
-                <Link to="/" className='no-underline'>Home</Link>
+                <Link to="/" className='no-underline nav-link'>Home</Link>
             )
         },
         {
             template: () => (
-                <Link to="/About" className='no-underline'>About US</Link>
-            )
-            
-        },
-        {
-            template: () => (
-                <Link to="/Service" className='no-underline'>Service</Link>
-            )
-        },
-        {
-            template: () => (
-                <Link to="/Blogs"className='no-underline'>Blogs</Link>
+                <Link to="/About" className='no-underline nav-link'>About Us</Link>
             )
             
         },
         {
             template: () => (
-                <Link to="/Contact"className='no-underline'>Contact</Link>
+                <Link to="/Service" className='no-underline nav-link'>Service</Link>
+            )
+        },
+        {
+            template: () => (
+                <Link to="/Blogs"className='no-underline nav-link'>Blogs</Link>
+            )
+            
+        },
+        {
+            template: () => (
+                <Link to="/Contact"className='no-underline nav-link'>Contact</Link>
             )
             
         }
@@ -51,7 +51,7 @@ export default function Header() {
     return (
         
             <div className="head-nav ml-0">
-                <Menubar model={items} start={start} className='flex  justify-content-between p-5 ' />
+                <Menubar model={items} start={start} className='flex  justify-content-between p-5 z-5' />
             </div>
         
     );

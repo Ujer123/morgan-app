@@ -31,32 +31,32 @@ export default function Home() {
         </div>
         </section>
 
-        <section className='lg:mx-8 sm:mx-0'>
-            <div className='container'>
-                <div className='row'>
-                    <h2 className='text-5xl px-5'>A Few Words About Me</h2>
-                    <div className='grid'>
-                    <div className='lg:col-6'>
-                        <p className='max-w-full px-5 text-2xl'>My name is Samantha Morgan, and I have been a fine artist since my youth. I find inspiration from the innovative styles of contemporary and urban art, such as graphic and graffiti illustrations. I strongly believe that art is a global form of communication. It educates visually by either moving you, pleasing you, or even inspiring you.</p>
+        {/* <section className='lg:mx-8 sm:mx-0'> */}
+            {/* <div className='container'> */}
+                {/* <div className='row'> */}
+                    <div className='grid mr-2'>
+                    <div className='lg:col-6 mx-5'>
+                    <h2 className='text-5xl mx-5'>A Few Words About Me</h2>
+                        <p className='max-w-full mx-5 text-lg'>My name is Samantha Morgan, and I have been a fine artist since my youth. I find inspiration from the innovative styles of contemporary and urban art, such as graphic and graffiti illustrations. I strongly believe that art is a global form of communication. It educates visually by either moving you, pleasing you, or even inspiring you.</p>
                         <Button label="Learn More" severity="warning" className='border-round-3xl mx-5' outlined/>
                     </div>
-                    <div className='lg:col-6'>
-                    <img alt="home" src={home} className='border-round-3xl px-5 pt-3 max-w-full' />
+                    <div className='lg:col-4 mx-5'>
+                    <img alt="home" src={home} className='border-round-3xl  pt-3 max-w-full' />
                     </div>
                 </div>
-            </div>
-                    </div>
-        </section>
+            {/* </div> */}
+                    {/* </div> */}
+        {/* </section> */}
         <Shopping/>
         <section>
             
                     <div className='text-center'>
-                        <h2 className='mx-5 px-5'>Services</h2>
-                        <p className='service-text px-4'>If you are looking for custom paintings, which will decorate your home or office, consider booking one or several of
+                        <h2 className='text-center text-5xl'>Services</h2>
+                        <p className='service-text px-4 text-lg'>If you are looking for custom paintings, which will decorate your home or office, consider booking one or several of
                         my services listed below. They will add more colors and emotions to your daily life.</p>
                     </div>
 
-                    <div class="grid lg:mx-8">
+                    <div class="grid lg:mx-8 pt-3">
     <div class="col-12 md:col-6 px-4 lg:col-3">
         <div class="text-center py-8 shadow-6 border-orange-500 border-3 font-bold"><img alt='user' src={user} /><h2>Portrait</h2></div>
     </div>
@@ -70,7 +70,7 @@ export default function Home() {
         <div class="text-center py-8 shadow-6 border-orange-500 border-3 font-bold "><img alt='home' src={house} /><h2>Urban</h2></div>
     </div>
                     </div>
-                    <div className='flex justify-content-center'>
+                    <div className='flex justify-content-center pt-2'>
                         <Button className='bg-white text-orange-500 border-orange-500 border-round-3xl'>View All Services</Button>
                     </div>
 

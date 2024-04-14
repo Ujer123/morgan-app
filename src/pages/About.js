@@ -22,8 +22,8 @@ export default function About(){
                 <h2 className='text-xl font-normal px-5'>There are always situations that call for more than just a photograph. Have your portrait painted by a really experienced fine artist who can literally paint anything you can dream up! A portrait is a representation of a particular person. Such paintings have always been more than just a record. They have been used to show the power, importance, virtue, beauty, wealth, taste, learning or other important qualities that characterize the sitter. It is one of the best ways to depict a person and show his/her character. I am always ready to meet all your wishes and preferences in your portrait, whether it's created as a personal painting or a piece of art for an official person. Contact me today to discuss your future portrait.</h2>
             <Button label="Learn More" severity="warning" className='border-round-3xl mx-5' outlined/>
             </div>
-            <div className='lg:col-6'>
-            <img alt="home" src={still} className='border-round-lg px-5 max-w-full' />
+            <div className='lg:col-5 m-5'>
+            <img alt="home" src={still} className='border-round-lg  max-w-full' />
             </div>
         </div>
 
