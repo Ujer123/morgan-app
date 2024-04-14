@@ -56,7 +56,7 @@ export default function Home() {
                         my services listed below. They will add more colors and emotions to your daily life.</p>
                     </div>
 
-                    <div class="grid lg:mx-8 pt-3">
+                    <div class="lg:grid lg:flex lg:mx-8 pt-3">
     <div class="col-12 md:col-6 px-4 lg:col-3">
         <div class="text-center py-8 shadow-6 border-orange-500 border-3 font-bold"><img alt='user' src={user} /><h2>Portrait</h2></div>
     </div>

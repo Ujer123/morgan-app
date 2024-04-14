@@ -34,7 +34,7 @@ export default function Service(){
     <img alt="home" src={potrait2} className='border-round-3xl max-w-full px-4 lg:px-0'/>
     </div>
     <div class="lg:col-6">
-        <div class="grid">
+        <div class="lg:grid">
             <div class="col-12">
                 <img src={potrait3} alt='potrait3' className='max-w-full border-round-3xl px-4 lg:px-0'/>
             </div>
@@ -51,7 +51,7 @@ export default function Service(){
 
         <div class="lg:grid lg:flex nested-grid lg:px-8 pt-6">
     <div class="lg:col-6">
-        <div class="grid">
+        <div class="lg:grid">
             <div class="col-12">
                 <img src={potrait4} alt='potrait3' className='max-w-full border-round-3xl px-4 lg:px-0'/>
             </div>
