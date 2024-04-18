@@ -3,6 +3,26 @@
     margin: 0;
 }
 
+.val-txt{
+    padding-left: 100px;
+}
+
+.pot-txt{
+    padding-top: -100px;
+}
+
+.pot-1{
+    margin-left: 70px;
+    width: 600px;
+}
+
+.pot-2{
+    margin-left: 10px;
+}
+
+.msg-inp{
+    width: 500px;
+}
 
 .no-underline{
     margin: 20px 30px;
@@ -142,5 +162,29 @@ title{
         width: 320px;
     }
     
+    /* .nav-link{
+        padding-top: 100px;
+    } */
+
+    .val-txt{
+        padding-left: 0px;
+    }
+
+    .msg-inp{
+        width: 320px;
+    }
+
+    .pot-1{
+        margin-left: 0px;
+        width: 500px;
+    }
+
+    .pot-2{
+        margin-left: 0px;
+    }
+
+    .p-menuitem{
+        margin-left: 10px;
+    }
     
 }
